@@ -28,7 +28,14 @@ def people_generator(num_people):
       yield person
 t1=time.clock()
 people = people_list(100000)
-t2 = time.clock()   
+t2 = time.clock()  
+# t1=time.clock()
+# people = people_list(100000)
+# t2 = time.clock()  
+
+print("Memory (After) :{}Mb".format(men_profile.memory_usage_resource()))
+print("Took {} Seconds".format(t2-t1))
+
 
   
 
