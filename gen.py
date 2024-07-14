@@ -38,40 +38,15 @@ print("Took {} Seconds".format(t2-t1))
 
 
   
+# def square_numbers(nums):
+#   for i in nums:
+#     yield (i*i)
+
+# my_nums=square_numbers([1,2,3,4,5])
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-def square_numbers(nums):
-  for i in nums:
-    yield (i*i)
-
-my_nums=square_numbers([1,2,3,4,5])
-
-
-for num in my_nums:
-  print (num)   
-  #print(list(my_nums))
+# for num in my_nums:
+#   print (num)   
+#   #print(list(my_nums))
   
-print(my_nums)
+# print(my_nums)
